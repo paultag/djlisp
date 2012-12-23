@@ -3,4 +3,4 @@
 (import "django.shortcuts")
 
 (defn home [request]
-  (return (django.shortcuts.render_to_response "home.html" {})))
+  (django.shortcuts.render_to_response "home.html" {}))
