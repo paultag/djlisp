@@ -1,6 +1,6 @@
 ; vim: tabstop=2 expandtab shiftwidth=2 softtabstop=2 filetype=lisp
 
-(import ["os"])
+(import "os")
 
 (def DEBUG true)
 (def TEMPLATE_DEBUG DEBUG)
