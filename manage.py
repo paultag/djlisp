@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import hy.lang.importer
+import hy
 import sys
 import os
 
