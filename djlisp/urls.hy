@@ -2,5 +2,6 @@
 
 (import django.conf.urls)
 
+
 (def urlpatterns (.patterns django.conf.urls ""
   (.url django.conf.urls "^$" "djlisp.hellisp.views.home")))
