@@ -1,6 +1,6 @@
 ; vim: tabstop=2 expandtab shiftwidth=2 softtabstop=2 filetype=lisp
 
-(import-from django.shortcuts render-to-response)
+(import [django.shortcuts [render-to-response]])
 
 
 (defn home [request] (render-to-response "home.html" {}))
